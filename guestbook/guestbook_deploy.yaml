@@ -14,7 +14,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: 851202/guestbook:20240522151304_16
+      - image: 851202/guestbook:20240522152542_17
         name: sb-guestbook
         envFrom:
         - configMapRef:
